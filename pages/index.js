@@ -4,15 +4,15 @@ import fetch from 'isomorphic-unfetch'
 import { Carrousel, HomeBoxes, ForCompany, ForStore, ForUser, Footer } from '../components'
 import Page from '../layouts/Page'
 
-const Home = ({ sliders, menus }) => (
+const Home = ({ sliders, menus, homeBoxes }) => (
   <div>
     <Page menus={menus}>
       <Head>
         <title>Ticket</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/favicon.png" />
       </Head>
       <Carrousel sliders={sliders} />
-      <HomeBoxes />
+      <HomeBoxes homeBoxes={homeBoxes} />
       <ForCompany />
       <ForStore />
       <ForUser />
@@ -26,15 +26,19 @@ Home.defaultProps = {
 }
 
 Home.getInitialProps = async function() {
-  const slidersResponse = await fetch('http://localhost:1337/sliders')
-  const sliders = await slidersResponse.json()
+  const slidersResponse = await fetch(`http://192.168.1.191:1337/sliders`);
+  const sliders = await slidersResponse.json();
 
-  const menusResponse = await fetch('http://localhost:1337/menus')
-  const menus = await menusResponse.json()
+  const menusResponse = await fetch(`http://192.168.1.191:1337/menus`);
+  const menus = await menusResponse.json();
+
+  const homeBoxesResponse = await fetch(`http://192.168.1.191:1337/homeboxes`);
+  const homeBoxes = await homeBoxesResponse.json();
 
   return {
     sliders,
-    menus
+    menus,
+    homeBoxes
   }
 }
 
