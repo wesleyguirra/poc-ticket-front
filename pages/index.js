@@ -4,53 +4,22 @@ import fetch from 'isomorphic-unfetch'
 import { Carrousel, HomeBoxes, ForCompany, ForStore, ForUser, Footer } from '../components'
 import Page from '../layouts/Page'
 
-const Home = ({ sliders, menus }) => <div>
-  <Page menus={menus}>
-    <Head>
-      <title>Ticket</title>
-      <link rel="icon" href="/favicon.ico"/>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-      <script dangerouslySetInnerHTML={{
-        __html: `function openEvaOnReady() {
-            if ( ! evaIsActive ) return;
-            clearInterval( evaOnReadyInterval );
-            tries--;
-            if ( tries <= 0 ) { tries = 10; return; }
-            if ( typeof NIT === 'undefined' || typeof NIT.UI === 'undefined' || ! $('#alme-wrap').length ) {
-                evaOnReadyInterval = setInterval( function() {
-                    openEvaOnReady();
-                }, 500 );
-                return;
-            }
-            NIT.UI.open();
-            $('#alme-input-field').focus();
-        }
-        $(document).ready(function(){
-            $('<script/>',{type:'text/javascript', src:'<?php echo tkt_get_theme_asset( 'js/eva/jquery-ui.min.js' ); ?>?ver=<?php echo tkt_script_version(); ?>'}).appendTo('head');
-            $('<script/>',{type:'text/javascript', src:'https://agentevirtual.ticket.com.br/alme/js/NITScriptManager.js', id:'nit-scriptmanager'}).appendTo('head');
-            var evaOnReadyInterval = 0,
-            evaIsActive = $('#nit-scriptmanager').length,
-            tries = 10;
-            // Open EVA on Click
-            $('.open-eva').on('click', function(event) {
-                event.preventDefault();
-                openEvaOnReady();
-            });
-        });`,
-      }}>
-      </script>
-      <script src="https://agentevirtual.ticket.com.br/alme/js/NITScriptManager.js" type="text/javascript" async=""
-              charSet="utf-8" id="nit-scriptmanager"></script>
-    </Head>
-    <Carrousel sliders={sliders}/>
-    <HomeBoxes/>
-    <ForCompany/>
-    <ForStore/>
-    <ForUser/>
-    <Footer/>
-  </Page>
-</div>
+const Home = ({ sliders, menus, homeBoxes }) => (
+  <div>
+    <Page menus={menus}>
+      <Head>
+        <title>Ticket</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Carrousel sliders={sliders} />
+      <HomeBoxes homeBoxes={homeBoxes} />
+      <ForCompany />
+      <ForStore />
+      <ForUser />
+      <Footer />
+    </Page>
+  </div>
+)
 
 Home.defaultProps = {
   sliders: []
@@ -63,9 +32,13 @@ Home.getInitialProps = async function() {
   const menusResponse = await fetch('https://ticket-cms.herokuapp.com/menus')
   const menus = await menusResponse.json()
 
+  const homeBoxesResponse = await fetch(`https://ticket-cms.herokuapp.com/homeboxes`);
+  const homeBoxes = await homeBoxesResponse.json();
+
   return {
     sliders,
-    menus
+    menus,
+    homeBoxes
   }
 }
 

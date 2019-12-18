@@ -4,7 +4,8 @@ import fetch from 'isomorphic-unfetch'
 import { Carrousel, HomeBoxes, ForCompany, ForStore, ForUser, Footer } from '../components'
 import Page from '../layouts/Page'
 
-const Home = ({ sliders, menus }) => <div>
+const Home = ({ sliders, menus }) => (
+  <div>
   <Page menus={menus}>
     <Head>
       <title>Ticket</title>
@@ -51,14 +52,15 @@ const Home = ({ sliders, menus }) => <div>
       <script src="https://agentevirtual.ticket.com.br/alme/js/NITScriptManager.js" type="text/javascript" async=""
               charSet="utf-8" id="nit-scriptmanager"></script>
     </Head>
-    <Carrousel sliders={sliders}/>
-    <HomeBoxes/>
-    <ForCompany/>
-    <ForStore/>
-    <ForUser/>
-    <Footer/>
+    <Carrousel sliders={sliders} />
+    <HomeBoxes homeBoxes={homeBoxes} />
+    <ForCompany />
+    <ForStore />
+    <ForUser />
+    <Footer />
   </Page>
 </div>
+)
 
 Home.defaultProps = {
   sliders: []
@@ -71,9 +73,13 @@ Home.getInitialProps = async function() {
   const menusResponse = await fetch('https://ticket-cms.herokuapp.com/menus')
   const menus = await menusResponse.json()
 
+  const homeBoxesResponse = await fetch(`https://ticket-cms.herokuapp.com/homeboxes`);
+  const homeBoxes = await homeBoxesResponse.json();
+
   return {
     sliders,
-    menus
+    menus,
+    homeBoxes
   }
 }
 
