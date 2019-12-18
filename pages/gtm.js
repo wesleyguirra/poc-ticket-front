@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch'
 import { Carrousel, HomeBoxes, ForCompany, ForStore, ForUser, Footer } from '../components'
 import Page from '../layouts/Page'
 
-const Home = ({ sliders, menus }) => (
+const Home = ({ sliders, menus, homeBoxes }) => (
   <div>
   <Page menus={menus}>
     <Head>
