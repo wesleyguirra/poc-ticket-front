@@ -65,10 +65,10 @@ Home.defaultProps = {
 }
 
 Home.getInitialProps = async function() {
-  const slidersResponse = await fetch('http://localhost:1337/sliders')
+  const slidersResponse = await fetch('https://ticket-cms.herokuapp.com/sliders')
   const sliders = await slidersResponse.json()
 
-  const menusResponse = await fetch('http://localhost:1337/menus')
+  const menusResponse = await fetch('https://ticket-cms.herokuapp.com/menus')
   const menus = await menusResponse.json()
 
   return {
