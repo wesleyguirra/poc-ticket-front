@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4935666f-6e9d-456b-911c-6c54675340b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/gtm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/slide1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Carrousel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Carrousel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Carrousel/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Carrousel/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ForCompany/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForCompany/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ForStore/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForStore/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ForUser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForUser/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomeBoxes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomeBoxes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Nav/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchBar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchBar/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gtm.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gtm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/lucas1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/lucas2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/lucas3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Carrousel/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="498">
               <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -52,10 +32,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="334">
+              <caret line="19" column="26" selection-end-line="72" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/gtm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#911#936#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="108" column="119" selection-start-line="108" selection-start-column="119" selection-end-line="108" selection-end-column="119" />
+            <state relative-caret-position="2568">
+              <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,30 +99,20 @@
         <option value="$PROJECT_DIR$/components/SearchBar/index.js" />
         <option value="$PROJECT_DIR$/components/index.js" />
         <option value="$PROJECT_DIR$/components/Footer/index.js" />
-        <option value="$PROJECT_DIR$/pages/gtm.js" />
         <option value="$PROJECT_DIR$/components/ForCompany/index.js" />
         <option value="$PROJECT_DIR$/components/ForStore/index.js" />
         <option value="$PROJECT_DIR$/components/ForUser/index.js" />
         <option value="$PROJECT_DIR$/consts/index.js" />
         <option value="$PROJECT_DIR$/components/Carrousel/index.js" />
         <option value="$PROJECT_DIR$/layouts/Page.js" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/Header/index.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/poc-ticket-website-front.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/pages/gtm.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -139,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,9 +192,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,34 +243,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576607340730</updated>
-      <workItem from="1576607342007" duration="25344000" />
+      <workItem from="1576607342007" duration="28967000" />
+      <workItem from="1576702974533" duration="436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25344000" />
+    <option name="totallyTimeSpent" value="29403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Buck" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32769832" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39921975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Buck" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32769832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -337,16 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/SearchBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components/SearchBar/index.js" />
     <entry file="file://$PROJECT_DIR$/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -363,16 +338,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gtm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ForCompany/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,20 +380,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Carrousel/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="498">
           <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,8 +397,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Header/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="108" column="119" selection-start-line="108" selection-start-column="119" selection-end-line="108" selection-end-column="119" />
+        <state relative-caret-position="2568">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="19" column="26" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gtm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#911#936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
