@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 export default function Footter() {
     return (
-        <React.Fragment>
+        <Fragment>
             "Footer"
-        </React.Fragment>
+        </Fragment>
     );
 }
